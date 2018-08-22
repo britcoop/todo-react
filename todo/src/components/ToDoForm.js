@@ -10,7 +10,7 @@ const TodoForm = (props) => {
       <form onSubmit={props.handleFormSubmit}>
         <div className="form-group">
           <label>Add a new todo!</label>
-          <input type="text" className="form-control" onChange={props.handleNewTodo} placeholder="add a new todo..."/>
+          <input type="text" ref={input => this.todoTitle = input} />className="form-control" onChange={props.handleNewTodo} placeholder="add a new todo..."/>
         </div>
         <div className="form-group">
           <textarea type="text" className="form-control" onChange={props.handleNewTodoDescription} placeholder="description"/>
