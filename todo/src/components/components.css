@@ -1,0 +1,8 @@
+
+.container {
+    max-width: 600px;
+}
+
+.complete p {
+    text-decoration: line-through;
+}
