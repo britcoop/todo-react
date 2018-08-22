@@ -52,7 +52,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
     $ npm run build
 
-Live Demo: coming soon :)
+Live Demo: https://todo-react-task.herokuapp.com/
 
 ## Built With
 
